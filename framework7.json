@@ -1,0 +1,30 @@
+{
+  "cwd": "D:\\Latihan framework7",
+  "type": [
+    "cordova"
+  ],
+  "name": "perblankoan",
+  "pkg": "io.framework7.myapp",
+  "framework": "core",
+  "template": "split-view",
+  "bundler": "vite",
+  "cssPreProcessor": "scss",
+  "cordova": {
+    "folder": "cordova",
+    "platforms": [
+      "android"
+    ],
+    "plugins": [
+      "cordova-plugin-statusbar",
+      "cordova-plugin-keyboard",
+      "cordova-plugin-splashscreen"
+    ]
+  },
+  "theming": {
+    "customColor": false,
+    "color": "#007aff",
+    "darkMode": false,
+    "iconFonts": true
+  },
+  "customBuild": false
+}
